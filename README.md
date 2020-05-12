@@ -7,6 +7,8 @@ To crosscheck the tools and algorithms used in the simulation for the Cherenkov-
 
 Image taken from [H.E.S.S. web pages](https://www.mpi-hd.mpg.de/hfm/HESS/pages/about/telescopes/) (2017 July 21). The large telescope in the middle is CT5.
 
+See also: https://github.com/cherenkov-plenoscope/aperture_history
+
 ### Periode
 I choose the periode of CT5 after its upgrade to a FlashCam image-sensor in mid 2019.
 Internal name of this periode:
@@ -35,6 +37,10 @@ only near zenith.
 ### Night-sky-background-light
 I pick a flux representative for the 1,500h to 2,000h darkest hours of observation-time in a year. I choose the measurement by 
 Benn and Allison on La Palma [gaug2013night] as a reference here. We use the flux as it is measured.
+
+![img](readme/nsb_lapalma_and_namibia.png)
+
+See also: https://github.com/cherenkov-plenoscope/photon_spectra
 
 ```
 @article{gaug2013night,
