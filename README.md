@@ -70,6 +70,17 @@ La Palma's night-sky is pretty much compatible with the one in Namibia:
 "mirror_reflectivity_vs_wavelength": "???"
 ```
 
+```
+@inproceedings{cornils2005optical,
+  title={The optical system of the HESS II telescope},
+  author={Cornils, R and Bernl{\"o}hr, Konrad and Heinzelmann, G{\"o}tz and Hofmann, Werner and Panter, Michael},
+  booktitle={International Cosmic Ray Conference},
+  volume={5},
+  pages={171},
+  year={2005}
+}
+```
+
 Image sensor
 ------------
 I think this is before FlashCam:
