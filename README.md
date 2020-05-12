@@ -36,7 +36,7 @@ only near zenith.
 
 ### Night-sky-background-light
 I pick a flux representative for the 1,500h to 2,000h darkest hours of observation-time in a year. I choose the measurement by 
-Benn and Allison on La Palma [gaug2013night] as a reference here. We use the flux as it is measured.
+Benn and Allison on La Palma [gaug2013night] as a reference here. We use the flux as it is measured, we do not scale it.
 
 <img src="readme/nsb_lapalma_and_namibia.png" width="360">
 
