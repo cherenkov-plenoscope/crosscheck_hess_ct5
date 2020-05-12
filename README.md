@@ -57,3 +57,61 @@ Compatible with:
     publisher={Elsevier}
 }
 ```
+
+# Telescope
+
+### Imaging reflector
+```
+"outer_diameter_m": 28.0,
+"focal_length_m": 36.0,
+"outer_facet_diameter_m": 0.9,
+"facet_shape": "hexagonal",
+"geometry": "parabolic",
+"mirror_reflectivity_vs_wavelength": "???"
+```
+
+Image sensor
+------------
+I think this is before FlashCam:
+```
+"pixel_field_of_view_diameter_deg": 0.0667,
+"field_of_view_diameter_deg": 3.2,
+"quantum_efficiency_vs_wavelength": "???"
+```
+
+Is FlashCam using "PMT Hamamatsu R11920-100-05"?
+
+Sum-trigger
+-----------
+This is for FlashCam itself. Not sure if this is the same in CT5.
+```
+"integration_time_duration_s": 4e-9,
+"threshold_pe": [50, 100],
+"num_pixel_to_be_summed_up": 9,
+```
+
+```
+@article{sailer2019trigger,
+  title={Trigger performance verification of the FlashCam prototype camera},
+  author={Sailer, S and Werner, F and Hermann, G and Barcelo, M and Bauer, C and Bernhard, S and Biegger, M and Canelli, F and Capasso, M and Diebold, S and others},
+  journal={Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+  volume={936},
+  pages={392--393},
+  year={2019},
+  publisher={Elsevier}
+}
+```
+
+### Focussing
+```
+"object_distance_to_focus_on_m": 12e3,
+```
+
+```
+@article{krayzel2013improved,
+  title={Improved sensitivity of HESS-II through the fifth telescope focus system},
+  author={Krayzel, F and Maurin, G and Brunetti, L and Dubois, J-M and Fiasson, A and Journet, L and Lamanna, G and Leflour, T and Lieunard, B and Monteiro, I and others},
+  journal={arXiv preprint arXiv:1307.6461},
+  year={2013}
+}
+```
