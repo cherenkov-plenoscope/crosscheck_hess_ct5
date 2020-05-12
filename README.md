@@ -132,3 +132,19 @@ This is for FlashCam itself. Not sure if this is the same in CT5.
   year={2013}
 }
 ```
+
+## Public instrument-responses
+
+Effective area for gamma-rays. Not on trigger-level, but after several cuts in the periode 2013-2015:
+```
+@article{abdalla2018first,
+  title={First ground-based measurement of sub-20 GeV to 100 GeV $\gamma$-Rays from the Vela pulsar with HESS II},
+  author={Abdalla, H and Aharonian, F and Benkhali, F Ait and Ang{\"u}ner, EO and Arakawa, M and Arcaro, C and Armand, C and Arrieta, M and Backes, M and Barnard, M and others},
+  journal={Astronomy \& Astrophysics},
+  volume={620},
+  pages={A66},
+  year={2018},
+  publisher={EDP Sciences}
+}
+```
+
