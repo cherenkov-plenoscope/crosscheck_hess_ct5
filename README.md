@@ -63,8 +63,7 @@ La Palma's night-sky is pretty much compatible with the one in Namibia:
     publisher={Elsevier}
 }
 ```
-
-# Telescope
+## Telescope
 
 ### Imaging reflector
 ```
@@ -87,8 +86,7 @@ La Palma's night-sky is pretty much compatible with the one in Namibia:
 }
 ```
 
-Image sensor
-------------
+### Image sensor
 I think this is before FlashCam:
 ```
 "pixel_field_of_view_diameter_deg": 0.0667,
@@ -98,8 +96,7 @@ I think this is before FlashCam:
 
 Is FlashCam using "PMT Hamamatsu R11920-100-05"?
 
-Sum-trigger
------------
+### Sum-trigger
 This is for FlashCam itself. Not sure if this is the same in CT5.
 ```
 "integration_time_duration_s": 4e-9,
