@@ -11,14 +11,14 @@ See also: https://github.com/cherenkov-plenoscope/aperture_history
 
 ### Periode
 I choose the periode of CT5 after its upgrade to a FlashCam image-sensor in mid 2019.
-Internal name of this periode:
+The H.E.S.S. internal name of this periode seems to be:
 ```
 phase2d0 to
 phase2d1
 ```
 
 ### Site
-Namibia, Khomas Highland, Goellschau.
+Namibia, Khomas Highland, Goellschau Farm.
 ```
 "observation_level_asl_m": 1800,
 "earth_magnetic_field_x_muT": 12.5,
