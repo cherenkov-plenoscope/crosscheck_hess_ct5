@@ -27,3 +27,29 @@ only near zenith.
 "azimuth_deg": 0.0,
 "zenith_deg": 0.0
 ```
+
+### Night-sky-background-light
+Representative for 1,500h to 2,000h of the darkest observation-time in a year.
+Benn and Allison, La Palma.
+
+```
+@article{gaug2013night,
+    title={Night Sky Background Analysis for the Cherenkov Telescope Array using the Atmoscope instrument},
+    author={Gaug, Markus and others},
+    journal={arXiv preprint arXiv:1307.3053},
+    year={2013}
+}
+```
+Compatible with:
+```
+@article{preuss2002study,
+    title={Study of the photon flux from the night sky at La Palma and Namibia, in the wavelength region relevant for imaging atmospheric Cherenkov telescopes},
+    author={Preuss, S and Hermann, G and Hofmann, W and Kohnle, A},
+    journal={Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+    volume={481},
+    number={1},
+    pages={229--240},
+    year={2002},
+    publisher={Elsevier}
+}
+```
