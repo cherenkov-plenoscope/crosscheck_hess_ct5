@@ -3,7 +3,7 @@
 ## Abstract
 To crosscheck the tools and algorithms used in the simulation for the Cherenkov-plenoscope, we perform a crosscheck with an existing Cherenkov-telescope. We choose to compare with the 5th telescope named 'CT5' in the [High Energy Stereoscopic System](https://www.mpi-hd.mpg.de/hfm/HESS/) as it is the largest Cherenkov-telescope in 2020. Here we collect CT5's public information to feed our simulations. The H.E.S.S. collaboration estimates the instrument-response of CT5 using tools based on sim-tel-array by Konrad Bernloehr. We will use the tools of the Cherenkov-plenoscope. We will only compare on the trigger-level.
 
-![img](readme/hess_overview.jpg)
+<img src="readme/hess_overview.jpg" width="640">
 
 Image taken from [H.E.S.S. web pages](https://www.mpi-hd.mpg.de/hfm/HESS/pages/about/telescopes/) (2017 July 21). The large telescope in the middle is CT5.
 
@@ -38,7 +38,7 @@ only near zenith.
 I pick a flux representative for the 1,500h to 2,000h darkest hours of observation-time in a year. I choose the measurement by 
 Benn and Allison on La Palma [gaug2013night] as a reference here. We use the flux as it is measured.
 
-![img](readme/nsb_lapalma_and_namibia.png)
+<img src="readme/nsb_lapalma_and_namibia.png" width="360">
 
 See also: https://github.com/cherenkov-plenoscope/photon_spectra
 
