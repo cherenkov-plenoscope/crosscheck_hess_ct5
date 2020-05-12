@@ -33,8 +33,8 @@ only near zenith.
 ```
 
 ### Night-sky-background-light
-Representative for 1,500h to 2,000h of the darkest observation-time in a year.
-Benn and Allison, La Palma.
+I pick a flux representative for the 1,500h to 2,000h darkest hours of observation-time in a year. I choose the measurement by 
+Benn and Allison on La Palma [gaug2013night] as a reference here.
 
 ```
 @article{gaug2013night,
@@ -44,7 +44,7 @@ Benn and Allison, La Palma.
     year={2013}
 }
 ```
-Compatible with:
+La Palma's night-sky is pretty much compatible with the one in Namibia:
 ```
 @article{preuss2002study,
     title={Study of the photon flux from the night sky at La Palma and Namibia, in the wavelength region relevant for imaging atmospheric Cherenkov telescopes},
