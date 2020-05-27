@@ -1,7 +1,7 @@
 # Crosscheck with Cherenkov-telescope H.E.S.S. CT5
 
 ## Abstract
-To crosscheck the tools and algorithms used in the simulation for the Cherenkov-plenoscope, we perform a crosscheck with an existing Cherenkov-telescope. We will only compare on the trigger-level. We choose to compare with the 5th telescope named 'CT5' in the [High Energy Stereoscopic System](https://www.mpi-hd.mpg.de/hfm/HESS/) as it is the largest Cherenkov-telescope in 2020. Here we collect CT5's public information to feed our simulations. The H.E.S.S. collaboration estimates the instrument-response of CT5 using tools based on sim-tel-array by Konrad Bernloehr. We will estimate the response to diffuse pools of gamma-rays, electrons, protons, and helium nuclei. 
+To crosscheck the tools and algorithms used in the simulation for the Cherenkov-plenoscope, we perform a crosscheck with an existing Cherenkov-telescope. We will only compare on the trigger-level. We choose to compare with the 5th telescope named 'CT5' in the [High Energy Stereoscopic System](https://www.mpi-hd.mpg.de/hfm/HESS/) as it is the largest Cherenkov-telescope in 2020. Here we collect CT5's public information to feed our simulations. The H.E.S.S. collaboration estimates the instrument-response of CT5 using tools based on sim_telarray by Konrad Bernloehr. We will estimate the response to diffuse pools of gamma-rays, electrons, protons, and helium nuclei.
 
 <img src="readme/hess_overview.jpg" width="640">
 
@@ -9,11 +9,10 @@ Image taken from [H.E.S.S. web pages](https://www.mpi-hd.mpg.de/hfm/HESS/pages/a
 
 See also: https://github.com/cherenkov-plenoscope/aperture_history
 
-### Periode
-I choose the periode of CT5 after its upgrade to a FlashCam image-sensor in mid 2019.
-The H.E.S.S. internal name of this periode seems to be:
+### Period
+We choose the period of CT5 after its upgrade to a FlashCam image-sensor in late 2019.
+The H.E.S.S. internal name of this period seems to be `phase2d`, with the latest variant
 ```
-phase2d0 to
 phase2d1
 ```
 
@@ -87,22 +86,37 @@ La Palma's night-sky is pretty much compatible with the one in Namibia:
 ```
 
 ### Image sensor
-I think this is before FlashCam:
 ```
-"pixel_field_of_view_diameter_deg": 0.0667,
-"field_of_view_diameter_deg": 3.2,
+"pixel_field_of_view_diameter_deg": 0.08,
+"field_of_view_diameter_deg": 3.4,
 "quantum_efficiency_vs_wavelength": "???"
 ```
 
-Is FlashCam using "PMT Hamamatsu R11920-100-05"?
+The CT5 camera contains a mixture of Hamamatsu R12992-100 and R11920-100 PMTs. Public measurements can be obtained from below reference.
+
+```
+@article{MIRZOYAN2017603,
+  title = "Evaluation of novel PMTs of worldwide best parameters for the CTA project",
+  journal = "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+  volume = "845",
+  pages = "603 - 606",
+  year = "2017",
+  note = "Proceedings of the Vienna Conference on Instrumentation 2016",
+  issn = "0168-9002",
+  doi = "https://doi.org/10.1016/j.nima.2016.06.080",
+  url = "http://www.sciencedirect.com/science/article/pii/S0168900216306416",
+  author = "R. Mirzoyan and D. Müller and J. Hose and U. Menzel and D. Nakajima and M. Takahashi and M. Teshima and T. Toyama and T. Yamamoto"
+}
+```
 
 ### Sum-trigger
-This is for FlashCam itself. Not sure if this is the same in CT5.
 ```
-"integration_time_duration_s": 4e-9,
-"threshold_pe": [50, 100],
+"integration_time_duration_s": 8e-9,
+"threshold_pe": 60,
 "num_pixel_to_be_summed_up": 9,
 ```
+
+The effective integration time of the digital trigger filter is approximately 8 ns.
 
 ```
 @article{sailer2019trigger,
@@ -118,7 +132,7 @@ This is for FlashCam itself. Not sure if this is the same in CT5.
 
 ### Focussing
 ```
-"object_distance_to_focus_on_m": 12e3,
+"object_distance_to_focus_on_m": 15e3,
 ```
 
 ```
@@ -132,7 +146,7 @@ This is for FlashCam itself. Not sure if this is the same in CT5.
 
 ## Public instrument-responses
 
-Effective area for gamma-rays. Not on trigger-level, but after several cuts in the periode 2013-2015:
+Effective area for gamma-rays. Not on trigger-level, but after several cuts in the period 2013-2015:
 ```
 @article{abdalla2018first,
   title={First ground-based measurement of sub-20 GeV to 100 GeV $\gamma$-Rays from the Vela pulsar with HESS II},
@@ -144,4 +158,3 @@ Effective area for gamma-rays. Not on trigger-level, but after several cuts in t
   publisher={EDP Sciences}
 }
 ```
-
