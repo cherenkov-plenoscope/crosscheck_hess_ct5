@@ -71,7 +71,23 @@ La Palma's night-sky is pretty much compatible with the one in Namibia:
 "outer_facet_diameter_m": 0.9,
 "facet_shape": "hexagonal",
 "geometry": "parabolic",
-"mirror_reflectivity_vs_wavelength": "???"
+"mirror_reflectivity_vs_wavelength": 83% of the CTA MST Al SiO2 mirrors
+```
+The mirror-reflectivity is assumed to be 75%. I guess this is at about 350nm wavelength. For an educated guess we take the spectrum of the the CTA MST Al SiO2 mirrors and reduce it down to 83% so that the remaining specular reflectivity at 350nm is 75%.
+<img src="readme/ct5_mirror_reflectivity_educated_guess.png" width="360">
+```
+@proceeding{doi: 10.1117/12.2025476,
+    author = { G.  Pareschi,T.  Armstrong,H.  Baba,J.  Bähr,A.  Bonardi,G.  Bonnoli,P.  Brun,R.  Canestrari,P.  Chadwick,M.  Chikawa,P.-H.  Carton,V.  de Souza,J.  Dipold,M.  Doro,D.  Durand,M.  Dyrda,A.  Förster,M.  Garczarczyk,E.  Giro,J.-F.  Glicenstein,Y.  Hanabata,M.  Hayashida,M.  Hrabovski,C.  Jeanney,M.  Kagaya,H.  Katagiri,L.  Lessio,D.  Mandat,M.  Mariotti,C.  Medina,J.  Michalowski,P.  Micolon,D.  Nakajima,J.  Niemiec,A.  Nozato,M.  Palatka,M.  Pech,B.  Peyaud,G.  Pühlhofer,M.  Rataj,G.  Rodeghiero,G.  Rojas,J.  Rousselle,R.  Sakonaka,P.  Schovanek,K.  Seweryn,C.  Schultz,S.  Shu,F.  Stinzing,M.  Stodulski,M.  Teshima,P.  Travniczek,C.  van Eldik,V.  Vassiliev,Ł  Wiśniewski,A.  Wörnlein,T.  Yoshida},
+    title = {Status of the technologies for the production of the Cherenkov Telescope Array (CTA) mirrors},
+    journal = {Proc.SPIE},
+    volume = {8861},
+    number = {},
+    pages = {8861 - 8861 - 19},
+    year = {2013},
+    doi = {10.1117/12.2025476},
+    URL = {https://doi.org/10.1117/12.2025476},
+    eprint = {}
+}
 ```
 
 ```
