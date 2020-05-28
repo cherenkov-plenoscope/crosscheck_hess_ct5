@@ -73,8 +73,23 @@ La Palma's night-sky is pretty much compatible with the one in Namibia:
 "geometry": "parabolic",
 "mirror_reflectivity_vs_wavelength": 83% of the CTA MST Al SiO2 mirrors
 ```
-The mirror-reflectivity is assumed to be 75%. I guess this is at about 350nm wavelength. For an educated guess we take the spectrum of the the CTA MST Al SiO2 mirrors and reduce it down to 83% so that the remaining specular reflectivity at 350nm is 75%.
+
+```
+@inproceedings{cornils2005optical,
+  title={The optical system of the HESS II telescope},
+  author={Cornils, R and Bernl{\"o}hr, Konrad and Heinzelmann, G{\"o}tz and Hofmann, Werner and Panter, Michael},
+  booktitle={International Cosmic Ray Conference},
+  volume={5},
+  pages={171},
+  year={2005}
+}
+```
+
+#### Mirrors
+The mirror-reflectivity is assumed to be 75% (at ~350nm wavelength). For an educated guess we take the spectrum of the the CTA MST Al SiO2 mirrors and reduce it down to 83% so that the remaining specular reflectivity at 350nm is 75%.
+
 <img src="readme/ct5_mirror_reflectivity_educated_guess.png" width="360">
+
 ```
 @proceeding{doi: 10.1117/12.2025476,
     author = { G.  Pareschi,T.  Armstrong,H.  Baba,J.  Bähr,A.  Bonardi,G.  Bonnoli,P.  Brun,R.  Canestrari,P.  Chadwick,M.  Chikawa,P.-H.  Carton,V.  de Souza,J.  Dipold,M.  Doro,D.  Durand,M.  Dyrda,A.  Förster,M.  Garczarczyk,E.  Giro,J.-F.  Glicenstein,Y.  Hanabata,M.  Hayashida,M.  Hrabovski,C.  Jeanney,M.  Kagaya,H.  Katagiri,L.  Lessio,D.  Mandat,M.  Mariotti,C.  Medina,J.  Michalowski,P.  Micolon,D.  Nakajima,J.  Niemiec,A.  Nozato,M.  Palatka,M.  Pech,B.  Peyaud,G.  Pühlhofer,M.  Rataj,G.  Rodeghiero,G.  Rojas,J.  Rousselle,R.  Sakonaka,P.  Schovanek,K.  Seweryn,C.  Schultz,S.  Shu,F.  Stinzing,M.  Stodulski,M.  Teshima,P.  Travniczek,C.  van Eldik,V.  Vassiliev,Ł  Wiśniewski,A.  Wörnlein,T.  Yoshida},
@@ -87,17 +102,6 @@ The mirror-reflectivity is assumed to be 75%. I guess this is at about 350nm wav
     doi = {10.1117/12.2025476},
     URL = {https://doi.org/10.1117/12.2025476},
     eprint = {}
-}
-```
-
-```
-@inproceedings{cornils2005optical,
-  title={The optical system of the HESS II telescope},
-  author={Cornils, R and Bernl{\"o}hr, Konrad and Heinzelmann, G{\"o}tz and Hofmann, Werner and Panter, Michael},
-  booktitle={International Cosmic Ray Conference},
-  volume={5},
-  pages={171},
-  year={2005}
 }
 ```
 
