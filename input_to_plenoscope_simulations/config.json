@@ -21,7 +21,7 @@
             "particle_id": 1,
             "energy_bin_edges_GeV": [
                 5,
-                50
+                500
             ],
             "max_scatter_angle_deg": 1.6,
             "energy_power_law_slope": -1.5,
@@ -32,7 +32,7 @@
             "particle_id": 3,
             "energy_bin_edges_GeV": [
                 5,
-                100
+                1000
             ],
             "max_scatter_angle_deg": 4,
             "energy_power_law_slope": -1.5,
@@ -43,7 +43,7 @@
             "particle_id": 14,
             "energy_bin_edges_GeV": [
                 25,
-                100
+                1000
             ],
             "max_scatter_angle_deg": 10,
             "energy_power_law_slope": -1.5,
@@ -54,7 +54,7 @@
             "particle_id": 402,
             "energy_bin_edges_GeV": [
                 50,
-                100
+                1000
             ],
             "max_scatter_angle_deg": 10,
             "energy_power_law_slope": -1.5,
@@ -91,10 +91,10 @@
         "direction_to_time_mixing_deg_per_s": 0.21e9
     },
     "num_runs": {
-        "gamma": 4,
-        "electron": 4,
-        "proton": 4,
-        "helium": 4
+        "gamma": 400,
+        "electron": 400,
+        "proton": 400,
+        "helium": 400
     },
     "magnetic_deflection": {
         "num_energy_supports": 512,
