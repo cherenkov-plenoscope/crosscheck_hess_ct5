@@ -75,7 +75,7 @@
         "image": {
             "image_outer_radius_deg": 1.66,
             "pixel_spacing_deg": 0.24,
-            "pixel_radius_deg": 0.3,
+            "pixel_radius_deg": 0.128,
             "max_number_nearest_lixel_in_pixel": 9
         }
     },
