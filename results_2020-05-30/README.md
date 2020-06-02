@@ -4,8 +4,8 @@ Estimating the instrument-resonse of H.E.S.S. CT5 on trigger-level using the sim
 ## Ratescan
 <img src="ratescan_namibia.png" width="640">
 
-The rates below a trigger-threshold of ```40 p.e.``` do saturate because of limited statistics.
-The instrument-responses below are for a trigger-threshold of ```60 p.e.```, see vertical line.
+The rates below a trigger-threshold of ```40 p.e.``` do saturate, and do not grow further because of limited statistics.
+The effective areas, and acceptances are for a trigger-threshold of ```60 p.e.```, see vertical line.
 
 ## Effective area for gamma-rays
 <img src="namibia_gamma_area.png" width="640">
