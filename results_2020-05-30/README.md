@@ -44,6 +44,25 @@ Electron / Positron
 
 <img src="figures/namibia_electron_trigger_probability_vs_cherenkov_size.jpg" width="320">
 
+## Triggerprobability vs. angle between pointing and primary
+
+Gamma
+
+<img src="figures/namibia_gamma_trigger_probability_vs_offaxis.jpg" width="320">
+
+Proton
+
+<img src="figures/namibia_proton_trigger_probability_vs_offaxis.jpg" width="320">
+
+Helium
+
+<img src="figures/namibia_helium_trigger_probability_vs_offaxis.jpg" width="320">
+
+Electron / Positron
+
+<img src="figures/namibia_electron_trigger_probability_vs_offaxis.jpg" width="320">
+
+
 ## Flux of airshowers
 
 <img src="figures/airshower_differential_flux.png" width="640">
