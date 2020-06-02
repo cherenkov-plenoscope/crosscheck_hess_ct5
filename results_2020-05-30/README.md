@@ -16,7 +16,7 @@ The effective areas, and acceptances are for a trigger-threshold of ```60 p.e.``
 
 ### Proton
 
-<img src="namibia_proton_acceptance.png" width="640">
+<img src="figures/namibia_proton_acceptance.png" width="640">
 
 ### Helium
 
@@ -25,6 +25,24 @@ The effective areas, and acceptances are for a trigger-threshold of ```60 p.e.``
 ### Electron + Positron
 
 <img src="figures/namibia_electron_acceptance.png" width="640">
+
+## Triggerprobability vs. true Cherenkov-size
+
+Gamma
+
+<img src="figures/namibia_gamma_trigger_probability_vs_cherenkov_size.jpg" width="320">
+
+Proton
+
+<img src="figures/namibia_proton_trigger_probability_vs_cherenkov_size.jpg" width="320">
+
+Helium
+
+<img src="figures/namibia_helium_trigger_probability_vs_cherenkov_size.jpg" width="320">
+
+Electron / Positron
+
+<img src="figures/namibia_electron_trigger_probability_vs_cherenkov_size.jpg" width="320">
 
 ## Flux of airshowers
 
