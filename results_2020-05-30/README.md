@@ -28,21 +28,10 @@ The effective areas, and acceptances are for a trigger-threshold of ```60 p.e.``
 
 ## Triggerprobability vs. true Cherenkov-size
 
-Gamma
 
-<img src="figures/namibia_gamma_trigger_probability_vs_cherenkov_size.jpg" width="320">
-
-Proton
-
-<img src="figures/namibia_proton_trigger_probability_vs_cherenkov_size.jpg" width="320">
-
-Helium
-
-<img src="figures/namibia_helium_trigger_probability_vs_cherenkov_size.jpg" width="320">
-
-Electron / Positron
-
-<img src="figures/namibia_electron_trigger_probability_vs_cherenkov_size.jpg" width="320">
+| Gamma         | Proton        | Helium  | Electron |
+| ------------- | ------------- | ------- | -------- |
+| <img src="figures/namibia_gamma_trigger_probability_vs_cherenkov_size.jpg" width="320"> | <img src="figures/namibia_proton_trigger_probability_vs_cherenkov_size.jpg" width="320"> | <img src="figures/namibia_helium_trigger_probability_vs_cherenkov_size.jpg" width="320"> | <img src="figures/namibia_electron_trigger_probability_vs_cherenkov_size.jpg" width="320"> |
 
 ## Triggerprobability vs. angle between pointing and primary
 
