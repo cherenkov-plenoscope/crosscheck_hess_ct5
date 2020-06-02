@@ -66,18 +66,18 @@ Electron / Positron
 
 Gamma
 
-| Gamma         | Proton        | Helium  |
-| ------------- |:-------------:| -------:|
-| <img src="figures/namibia_gamma_grid_area_pasttrigger_000000.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000000.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000000.jpg" width="240"> |
-| <img src="figures/namibia_gamma_grid_area_pasttrigger_000001.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000001.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000001.jpg" width="240"> |
-| <img src="figures/namibia_gamma_grid_area_pasttrigger_000002.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000002.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000002.jpg" width="240"> |
-| <img src="figures/namibia_gamma_grid_area_pasttrigger_000003.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000003.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000003.jpg" width="240"> |
-| <img src="figures/namibia_gamma_grid_area_pasttrigger_000004.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000004.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000004.jpg" width="240"> |
-| <img src="figures/namibia_gamma_grid_area_pasttrigger_000005.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000005.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000005.jpg" width="240"> |
-| <img src="figures/namibia_gamma_grid_area_pasttrigger_000006.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000006.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000006.jpg" width="240"> |
-| <img src="figures/namibia_gamma_grid_area_pasttrigger_000007.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000007.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000007.jpg" width="240"> |
-| <img src="figures/namibia_gamma_grid_area_pasttrigger_000008.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000008.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000008.jpg" width="240"> |
-| <img src="figures/namibia_gamma_grid_area_pasttrigger_000009.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000009.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000009.jpg" width="240"> |
+| Gamma         | Proton        | Helium  | Electron |
+| ------------- | ------------- | ------- | -------- |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000000.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000000.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000000.jpg" width="240"> | <img src="figures/namibia_electron_grid_area_pasttrigger_000000.jpg" width="240"> |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000001.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000001.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000001.jpg" width="240"> | <img src="figures/namibia_electron_grid_area_pasttrigger_000001.jpg" width="240"> |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000002.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000002.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000002.jpg" width="240"> | <img src="figures/namibia_electron_grid_area_pasttrigger_000002.jpg" width="240"> |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000003.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000003.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000003.jpg" width="240"> | <img src="figures/namibia_electron_grid_area_pasttrigger_000003.jpg" width="240"> |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000004.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000004.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000004.jpg" width="240"> | <img src="figures/namibia_electron_grid_area_pasttrigger_000004.jpg" width="240"> |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000005.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000005.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000005.jpg" width="240"> | <img src="figures/namibia_electron_grid_area_pasttrigger_000005.jpg" width="240"> |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000006.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000006.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000006.jpg" width="240"> | <img src="figures/namibia_electron_grid_area_pasttrigger_000006.jpg" width="240"> |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000007.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000007.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000007.jpg" width="240"> | <img src="figures/namibia_electron_grid_area_pasttrigger_000007.jpg" width="240"> |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000008.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000008.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000008.jpg" width="240"> | <img src="figures/namibia_electron_grid_area_pasttrigger_000008.jpg" width="240"> |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000009.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000009.jpg" width="240"> | <img src="figures/namibia_helium_grid_area_pasttrigger_000009.jpg" width="240"> | <img src="figures/namibia_electron_grid_area_pasttrigger_000009.jpg" width="240"> |
 
 Proton
 
