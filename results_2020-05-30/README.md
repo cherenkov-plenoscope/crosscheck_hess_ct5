@@ -62,6 +62,36 @@ Electron / Positron
 
 <img src="figures/namibia_electron_trigger_probability_vs_offaxis.jpg" width="320">
 
+## Cherenkov-pool on observation-level
+
+Gamma
+
+| Gamma        | Proton           | Cool  |
+| ------------- |:-------------:| -----:|
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000000.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000000.jpg" width="240"> | $1600 |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000001.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000001.jpg" width="240"> | $1600 |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000002.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000002.jpg" width="240"> | $1600 |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000003.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000003.jpg" width="240"> | $1600 |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000004.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000004.jpg" width="240"> | $1600 |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000005.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000005.jpg" width="240"> | $1600 |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000006.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000006.jpg" width="240"> | $1600 |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000007.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000007.jpg" width="240"> | $1600 |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000008.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000008.jpg" width="240"> | $1600 |
+| <img src="figures/namibia_gamma_grid_area_pasttrigger_000009.jpg" width="240"> | <img src="figures/namibia_proton_grid_area_pasttrigger_000009.jpg" width="240"> | $1600 |
+
+Proton
+
+<img src="figures/namibia_proton_trigger_probability_vs_offaxis.jpg" width="320">
+
+Helium
+
+<img src="figures/namibia_helium_trigger_probability_vs_offaxis.jpg" width="320">
+
+Electron / Positron
+
+<img src="figures/namibia_electron_trigger_probability_vs_offaxis.jpg" width="320">
+
+
 
 ## Flux of airshowers
 
