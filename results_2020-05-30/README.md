@@ -4,13 +4,13 @@
 Estimating the instrument-resonse of H.E.S.S. CT5 on trigger-level using the simulation-tools of the Cherenkov-plenoscope.
 
 ## Ratescan
-<img src="ratescan_namibia.png" width="640">
+<img src="figures/ratescan_namibia.png" width="640">
 
 The rates below a trigger-threshold of ```40 p.e.``` do saturate, and do not grow further because of limited statistics.
 The effective areas, and acceptances are for a trigger-threshold of ```60 p.e.```, see vertical line.
 
 ## Effective area for gamma-rays
-<img src="namibia_gamma_area.png" width="640">
+<img src="figures/namibia_gamma_area.png" width="640">
 
 ## Effective acceptance (area x solid angle) for cosmic-rays
 
@@ -20,15 +20,15 @@ The effective areas, and acceptances are for a trigger-threshold of ```60 p.e.``
 
 ### Helium
 
-<img src="namibia_helium_acceptance.png" width="640">
+<img src="figures/namibia_helium_acceptance.png" width="640">
 
 ### Electron + Positron
 
-<img src="namibia_electron_acceptance.png" width="640">
+<img src="figures/namibia_electron_acceptance.png" width="640">
 
 ## Flux of airshowers
 
-<img src="airshower_differential_flux.png" width="640">
+<img src="figures/airshower_differential_flux.png" width="640">
 
 This is used to integrate the trigger-rates shown in the ratescan.
 The flux of airshowers in earth's atmosphere is based on the flux of cosmic-rays outside of earth's atmosphere and the geomagnetic cutoff. Here we assume that the flux of airshowers below a rigidity of ```~10GV``` is reduced down to ```5%```.
