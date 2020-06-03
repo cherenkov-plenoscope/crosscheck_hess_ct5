@@ -86,9 +86,9 @@ La Palma's night-sky is pretty much compatible with the one in Namibia:
 ```
 
 #### Mirrors
-The mirror-reflectivity is assumed to be 75% (at ~350nm wavelength). For an educated guess we take the spectrum of the the CTA MST Al SiO2 mirrors and reduce it down to 83% so that the remaining specular reflectivity at 350nm is 75%.
+The mirror-reflectivity is assumed to have degraded by a factor of ```0.71``` since its initial installation. This is based on Muon-calibration. The Figure shows CT5's mirror-reflectivity together with the reflectivity of the CTA-MST AlSiO2 mirrors.
 
-<img src="readme/ct5_mirror_reflectivity_educated_guess.png" width="360">
+<img src="readme/ct5_mirror_reflectivity_degraded.png" width="360">
 
 ```
 @proceeding{doi: 10.1117/12.2025476,
@@ -109,11 +109,16 @@ The mirror-reflectivity is assumed to be 75% (at ~350nm wavelength). For an educ
 ```
 "pixel_field_of_view_diameter_deg": 0.08,
 "field_of_view_diameter_deg": 3.4,
-"quantum_efficiency_vs_wavelength": "???"
+"quantum_efficiency_vs_wavelength": "Hamamatsu R12992-100"
 ```
 
-The CT5 camera contains a mixture of Hamamatsu R12992-100 and R11920-100 PMTs. Public measurements can be obtained from below reference.
+The CT5 camera contains a mixture of Hamamatsu R12992-100 and R11920-100 PMTs.
 
+<img src="readme/ct5_quantum_efficiency_convolved_with_window_transparency.png" width="360">
+
+```Measurement by Oleg Kalekin, University Erlangen, March 2018```
+
+Public measurements can be obtained from below reference.
 ```
 @article{MIRZOYAN2017603,
   title = "Evaluation of novel PMTs of worldwide best parameters for the CTA project",
