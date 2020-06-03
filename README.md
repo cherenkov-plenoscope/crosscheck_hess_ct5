@@ -113,12 +113,13 @@ The mirror-reflectivity is assumed to have degraded by a factor of ```0.71``` si
 ```
 
 The CT5 camera contains a mixture of Hamamatsu R12992-100 and R11920-100 PMTs.
+```Measurement of PMTs by Oleg Kalekin, University Erlangen, March 2018```
+
+Convolved with the transmission of the entrance-window of flash-cam, The figure below shows the effective photon-detection-efficiency.
 
 <img src="readme/ct5_quantum_efficiency_convolved_with_window_transparency.png" width="360">
 
-```Measurement by Oleg Kalekin, University Erlangen, March 2018```
-
-Public measurements can be obtained from below reference.
+Public measurements of prestine sample of such PMTs can be obtained from reference below.
 ```
 @article{MIRZOYAN2017603,
   title = "Evaluation of novel PMTs of worldwide best parameters for the CTA project",
