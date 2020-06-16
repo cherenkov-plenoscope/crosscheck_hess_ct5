@@ -85,6 +85,13 @@ La Palma's night-sky is pretty much compatible with the one in Namibia:
 }
 ```
 
+#### Masts
+The masts running from the imaging-reflector to the image-sensor do block light.
+Their average transmission is estimated to be:
+```
+0.925.
+```
+
 #### Mirrors
 The mirror-reflectivity is assumed to have degraded by a factor of ```0.71``` since its initial installation. This is based on Muon-calibration. The Figure shows CT5's mirror-reflectivity together with the reflectivity of the CTA-MST AlSiO2 mirrors.
 
@@ -107,10 +114,11 @@ The mirror-reflectivity is assumed to have degraded by a factor of ```0.71``` si
 
 ### Image sensor
 ```
-"pixel_field_of_view_diameter_deg": 0.08,
+"pixel_field_of_view_diameter_deg": 0.0796,
 "field_of_view_diameter_deg": 3.4,
 "quantum_efficiency_vs_wavelength": "Hamamatsu R12992-100"
 ```
+The pixel-spacing is ```50.0```mm what corresponds to ```0.0796```deg at ```36.0```m focal-length.
 
 The CT5 camera contains a mixture of Hamamatsu R12992-100 and R11920-100 PMTs.
 ```Measurement of PMTs by Oleg Kalekin, University Erlangen, March 2018```
@@ -134,6 +142,11 @@ Public measurements of prestine sample of such PMTs can be obtained from referen
   author = "R. Mirzoyan and D. Müller and J. Hose and U. Menzel and D. Nakajima and M. Takahashi and M. Teshima and T. Toyama and T. Yamamoto"
 }
 ```
+The average transmission of the reflective funnels infron of the photo-multiplier-tubes is estimated to be:
+```
+0.9.
+```
+However, this 'loss' will not be explicitly taken into account in our simulation of a ```CT5```-like plenoscope because the plenoscope's lenses show very similar acceptances.
 
 ### Sum-trigger
 ```
