@@ -73,8 +73,8 @@
         "threshold_pe": 60,
         "integration_time_slices": 16,
         "image": {
-            "image_outer_radius_deg": 1.66,
-            "pixel_spacing_deg": 0.24,
+            "image_outer_radius_deg": 1.8,
+            "pixel_spacing_deg": 0.15,
             "pixel_radius_deg": 0.128,
             "max_number_nearest_lixel_in_pixel": 9
         }
