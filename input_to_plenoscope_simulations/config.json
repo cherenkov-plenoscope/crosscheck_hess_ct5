@@ -63,6 +63,8 @@
         }
     },
     "grid": {
+        "field_of_view_overhead": 1.1,
+        "bin_width_overhead": 1.1,
         "num_bins_radius": 512,
         "threshold_num_photons": 50
     },
@@ -90,15 +92,33 @@
         "neighborhood_radius_deg": 0.075,
         "direction_to_time_mixing_deg_per_s": 0.21e9
     },
-    "num_runs": {
-        "gamma": 2000,
-        "electron": 2000,
-        "proton": 2000,
-        "helium": 2000
+    "runs": {
+        "gamma": {
+            "num": 4000,
+            "first_run_id": 1
+        },
+        "electron": {
+            "num": 2000,
+            "first_run_id": 1
+        },
+        "proton": {
+            "num": 2000,
+            "first_run_id": 1
+        },
+        "helium": {
+            "num": 2000,
+            "first_run_id": 1
+        }
     },
     "magnetic_deflection": {
         "num_energy_supports": 512,
         "max_energy_GeV": 64
     },
-    "num_airshowers_per_run": 100
+    "num_airshowers_per_run": 100,
+    "artificial_core_limitation": {
+        "gamma": null,
+        "electron": null,
+        "proton": null,
+        "helium": null
+    }
 }
